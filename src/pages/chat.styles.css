@@ -1,0 +1,13 @@
+.chat-wrapper{
+    height: 100vh;
+    width: 100vw;
+}
+#navbar{
+    background: #121e56;
+    height: 60px;
+    line-height:60px;
+}
+#chat-list{
+    background: #f3f3f3;
+    height: calc(100vh - 60px);
+}

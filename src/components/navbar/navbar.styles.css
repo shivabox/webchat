@@ -1,0 +1,12 @@
+.profilePic{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 5px;
+}
+.user-name{
+    font-weight: 700;
+    color: white;
+}

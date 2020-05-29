@@ -1,0 +1,22 @@
+.chat-list-item{
+    background: white;
+    cursor: pointer;
+    padding: 8px 4px;
+}
+.profilePic{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+}
+.chat-name{
+    font-weight: 500;
+    font-size: 13;
+}
+.chat-msg{
+    font-size: 11px;
+}
+.chat-time{
+    font-size: 13px;
+}

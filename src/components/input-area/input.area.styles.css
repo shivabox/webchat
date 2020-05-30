@@ -1,0 +1,6 @@
+#input-area{
+    padding: 5px;
+    background: hsl(0, 0%, 95%);
+    height: 60px;
+    line-height:55px;
+}

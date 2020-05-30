@@ -1,13 +1,42 @@
 .chat-wrapper{
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
 }
-#navbar{
-    background: #121e56;
-    height: 60px;
-    line-height:60px;
-}
+
 #chat-list{
     background: #f3f3f3;
     height: calc(100vh - 60px);
+}
+
+#messages{
+    height: calc(100vh - 130px);
+    overflow-y: scroll;
+}
+.message-item{
+    max-width: 75%;
+    word-break: break-word;
+    margin: 5px;
+    padding: 5px;
+}
+.align-self{
+    float: right;
+    clear: both;
+    background: #e3e3e3!important;
+}
+.align-other{
+    float: left;
+    clear: both;
+    background: #ffffff!important;
+}
+.chat-name{
+    font-weight: 700;
+    font-size: 14px;
+}
+.msg-body{
+    font-size: 14px;
+}
+.msg-time{
+    font-size: 11px;
+    margin-top: 3px;
 }

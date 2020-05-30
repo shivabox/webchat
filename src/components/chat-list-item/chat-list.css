@@ -2,6 +2,10 @@
     background: white;
     cursor: pointer;
     padding: 8px 4px;
+    border-bottom: 1px solid #dee2e6!important;
+}
+.chat-list-item:hover{
+    background: hsl(0, 0%, 88%);
 }
 .profilePic{
     height: 40px;
@@ -18,5 +22,5 @@
     font-size: 11px;
 }
 .chat-time{
-    font-size: 13px;
+    font-size: 12px;
 }
